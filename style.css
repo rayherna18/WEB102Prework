@@ -2,15 +2,36 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #102640;
+    color:white;
 }
 
 #tentacles {
     width: 50px;
 }
 
+#srchBar
+{
+    background-color: #272b36;
+    color:white;
+    position:absolute;
+    top:3%;
+    right: .5%;
+    display: block;
+    text-align: left;
+    padding: 14px;
+    width:25%;
+    border-radius: 7px;
+}
+
+#srchBar::placeholder
+{
+    color:white;
+}
+
 .header {
     display: flex;
+    color:#102640;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
@@ -20,20 +41,29 @@ body {
 }
 
 .stats-container {
+    height: 190px;
     display: flex;
+    flex-direction: row;
+}
+
+.stats-card:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: lightblue;
+    color: #102640;
     border-radius: 7px;
-    padding: 1%;
     margin: 1%;
     width: 100%;
+    height:auto;
     text-align: center;
 }
 
 #num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #games-container {
@@ -49,7 +79,8 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    color:black;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -67,9 +98,29 @@ body {
 }
 
 button {
+    background-color: gold;
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+button:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#walkThru
+{
+   width: 20%;
+   height: auto;
+   margin-left: 40%;
+   margin-right:40%;
+}
+
+#walkThru:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
