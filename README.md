@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![hippo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2V4M2tyanI5cmp1MmV2emYycHQ2NTRranFoMjdjOXN4b21hZ2l4dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1lXAdpy51rZiTP6Pea/giphy.gif)
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2V4M2tyanI5cmp1MmV2emYycHQ2NTRranFoMjdjOXN4b21hZ2l4dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1lXAdpy51rZiTP6Pea/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Licecap](https://www.cockos.com/licecap/) 
 
